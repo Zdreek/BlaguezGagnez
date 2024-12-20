@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blaguez Gagnez</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Section principale -->
+    <div class="container">
+        <!-- Logo et titre -->
+        <div class="header">
+            <h1 class="title">Blaguez Gagnez</h1>
+            <img src="bg_logo.png" alt="Logo BG" class="logo">
+        </div>
+
+        <!-- Frise défilante -->
+        <div class="carousel">
+            <img src="lot1.jpg" alt="Lot 1" class="carousel-image">
+            <img src="lot2.jpg" alt="Lot 2" class="carousel-image">
+            <img src="lot3.jpg" alt="Lot 3" class="carousel-image">
+        </div>
+
+        <!-- Boutons -->
+        <div class="buttons">
+            <button onclick="location.href='login.html'">Se connecter</button>
+            <button onclick="location.href='register.html'">S'inscrire</button>
+        </div>
+
+        <!-- Règles des concours -->
+        <div class="rules">
+            <h3>Règles des concours :</h3>
+            <p>
+                Partagez des blagues, histoires, vidéos ou images ! Chaque jour, 
+                votez pour vos concurrents et publiez votre propre contenu. 
+                Les résultats tombent chaque dimanche : les 3 premiers remportent des cadeaux.
+                Proposez vos idées de lots dans l’espace "Mon compte".
+            </p>
+        </div>
+
+        <!-- CGU et Contact -->
+        <div class="footer">
+            <a href="cgu.html">CGU</a> |
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</body>
+</html>
